@@ -1,0 +1,23 @@
+{
+  "name": "levvel-seat-assign",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "1.1.4"
+  },
+  "dependencies": {
+    "gh-pages": "^1.1.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "rebass": "next"
+  },
+  "homepage": "http://harrythedev.github.io/levvel-seat-assigner",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
